@@ -74,7 +74,7 @@ public class SalaController {
         return view;
     }
 
-    @GetMapping("/admin/sala/{id}/sessoes")
+    @GetMapping("/admin/sala/{id}/lugares")
     public ModelAndView listaLugares(@PathVariable("id") Integer id) {
 
         ModelAndView modelAndView = new ModelAndView("lugar/lista");
